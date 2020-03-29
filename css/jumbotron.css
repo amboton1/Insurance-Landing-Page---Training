@@ -22,6 +22,7 @@
     .jumbotron__text {
         display: flex;
         width: 80%;
+        position: relative;
         color: hsl(0, 0%, 98%);
         flex-direction: column;
         margin: 0 auto;
@@ -59,8 +60,9 @@
         background-color: #fff;
         color: hsl(256, 26%, 20%);
     }
-    .jumbotron__img {
+    .jumbotron__img img {
         position: absolute;
-        right: 15%;
+        right: 10%;
+        top: 0;
     }
 }
