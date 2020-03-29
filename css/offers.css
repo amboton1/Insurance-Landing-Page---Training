@@ -1,6 +1,5 @@
 @media (min-width: 992px) {
     /*** BOX OFFERS ***/
-
     .main__offers {
         margin-top: 20rem;
         max-width: 80%;
@@ -9,6 +8,7 @@
         flex-direction: column;
         margin-right: auto;
         margin-left: auto;
+        margin-bottom: 9rem;
     }
     .main__offers hr {
         width: 150px;
@@ -16,7 +16,6 @@
     .main__boxes {
         display: flex;
         height: 100%;
-        margin-bottom: 2rem;
     }
     .offers__title {
         font-size: 75px;

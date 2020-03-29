@@ -8,7 +8,7 @@
         background-position: bottom right;
         padding: 3rem 0;
         max-width: 80%;
-        margin: 6rem auto;
+        margin: auto auto 7rem auto;
         display: flex;
     }
     .content__banner {
