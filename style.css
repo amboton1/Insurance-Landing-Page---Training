@@ -1,0 +1,31 @@
+@import url('./css/navigation.css');
+@import url('css/jumbotron.css');
+@import url('css/offers.css');
+@import url('css/banner.css');
+@import url('css/footer.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'DM Serif Display', serif;
+}
+
+ion-icon {
+    transition: .5s;
+    color: hsl(0, 0%, 58%);
+}
+
+ion-icon:hover {
+    transition: .5s;
+    color: hsl(256, 26%, 20%);
+}
+
