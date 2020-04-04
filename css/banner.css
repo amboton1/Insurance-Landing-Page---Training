@@ -1,39 +1,59 @@
-@media (min-width: 992px) {
-    /*** MAIN BANNER ***/
+/*** MAIN BANNER ***/
 
+.main__banner {
+    background: url('../images/bg-pattern-how-we-work-desktop.svg') no-repeat;
+    background-color: hsl(256, 26%, 20%);
+    color: hsl(0, 0%, 98%);
+    background-size: contain;
+    background-position: bottom right;
+    padding: 3rem 0;
+    max-width: 80%;
+    margin: auto auto 7rem auto;
+    display: flex;
+}
+
+.content__banner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7rem;
+}
+
+.content__banner h2 {
+    font-size: 53px;
+}
+
+.content__banner a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: hsl(0, 0%, 98%);
+    padding: 10px 16px;
+    transition: ease .3s;
+    border: 2px solid white;
+}
+
+.content__banner a:hover {
+    transition: ease .3s;
+    font-weight: 900;
+    color: hsl(270, 9%, 17%);
+    background-color: hsl(0, 0%, 98%);
+}
+
+@media (max-width: 768px) {
     .main__banner {
-        background: url('../images/bg-pattern-how-we-work-desktop.svg') no-repeat;
-        background-color: hsl(256, 26%, 20%);
-        color: hsl(0, 0%, 98%);
-        background-position: bottom right;
-        padding: 3rem 0;
-        max-width: 80%;
-        margin: auto auto 7rem auto;
+        background: hsl(256, 26%, 20%) url('../images/bg-pattern-how-we-work-mobile.svg') no-repeat right;
+        background-size: contain;
         display: flex;
     }
     .content__banner {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0 7rem;
+        padding: 0 5rem;
+        flex-direction: column;
+        text-align: center;
     }
     .content__banner h2 {
-        font-size: 53px;
-    }
-    .content__banner a {
-        text-decoration: none;
-        text-transform: uppercase;
-        font-weight: 900;
-        color: hsl(0, 0%, 98%);
-        padding: 10px 16px;
-        transition: ease .3s;
-        border: 2px solid white;
-    }
-    .content__banner a:hover {
-        transition: ease .3s;
-        font-weight: 900;
-        color: hsl(270, 9%, 17%);
-        background-color: hsl(0, 0%, 98%);
+        margin-bottom: 2rem;
+        font-size: 3rem;
     }
 }
