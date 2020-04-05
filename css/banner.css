@@ -46,9 +46,10 @@
         background: hsl(256, 26%, 20%) url('../images/bg-pattern-how-we-work-mobile.svg') no-repeat right;
         background-size: contain;
         display: flex;
+        padding: 0;
     }
     .content__banner {
-        padding: 0 5rem;
+        padding: 1.3rem 2rem;
         flex-direction: column;
         text-align: center;
     }

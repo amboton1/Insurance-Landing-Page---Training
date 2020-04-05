@@ -1,60 +1,66 @@
+ /*** BOX OFFERS ***/
 
-@media (max-width: 767px) {
-    .main__offers {
+ .main__offers {
+     margin-top: 20rem;
+     max-width: 80%;
+     display: flex;
+     justify-content: flex-start;
+     flex-direction: column;
+     margin-right: auto;
+     margin-left: auto;
+     margin-bottom: 9rem;
+ }
+
+ .main__offers hr {
+     width: 150px;
+ }
+
+ .main__boxes {
+     display: flex;
+     height: 100%;
+ }
+
+ .offers__title {
+     font-size: 75px;
+     color: hsl(270, 9%, 17%);
+     margin-bottom: 2rem;
+ }
+
+ .box__item {
+     padding-right: 1.5rem;
+     flex-basis: 50%;
+ }
+
+ .box__item h3 {
+     font-size: 25px;
+     font-weight: 400;
+     padding: 16px 0;
+ }
+
+ .box__item span {
+     color: hsl(273, 4%, 51%);
+     line-height: 2rem;
+ }
+
+ @media (max-width: 767px) {
+     .main__offers {
+        margin: 10% 0;
+        min-width: 100%;
         text-align: center;
-        width: 100%;
-    }
-    
-    .main__offers h2 {
-        font-size: 60px;
-    }
-    
-    .box__item {
-        margin: 10% auto;
-        width: 50%;
-    }
-    
-    .box__item h3 {
-        font-size: 25px;
-        margin: 3% 0;
-    }
-}
-
-@media (min-width: 768px) {
-    /*** BOX OFFERS ***/
-    .main__offers {
-        margin-top: 20rem;
-        max-width: 80%;
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        margin-right: auto;
-        margin-left: auto;
-        margin-bottom: 9rem;
-    }
-    .main__offers hr {
-        width: 150px;
-    }
-    .main__boxes {
-        display: flex;
-        height: 100%;
-    }
-    .offers__title {
-        font-size: 75px;
-        color: hsl(270, 9%, 17%);
-        margin-bottom: 2rem;
-    }
-    .box__item {
-        padding-right: 1.5rem;
-        flex-basis: 50%;
-    }
-    .box__item h3 {
-        font-size: 25px;
-        font-weight: 400;
-        padding: 16px 0;
-    }
-    .box__item span {
-        color: hsl(273, 4%, 51%);
-        line-height: 2rem;
-    }
-}
+     }
+     .main__offers h2 {
+         font-size: 50px;
+     }
+     .main__boxes {
+         flex-direction: column;
+     }
+     .box__item {
+         margin: 10% auto;
+         padding: 0;
+         width: 50%;
+     }
+     .box__item h3 {
+         font-size: 25px;
+         margin: 3% 0;
+     }
+ }
