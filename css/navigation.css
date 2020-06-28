@@ -79,6 +79,7 @@
         background: hsl(270, 9%, 17%) url('../images/bg-pattern-mobile-nav.svg');
         top: 80px;
         left: -105%;
+        z-index: 1;
         text-align: center;
         transition: all .5s;
         background-size: contain;
